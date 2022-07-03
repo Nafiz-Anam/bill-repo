@@ -1,0 +1,72 @@
+.register-form, .login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-form form, .login-form form {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.register-title, .login-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.register-form form input, .login-form form input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  border: .5px solid #dbdbdb75;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.register-page .btn-register, .login-page .login-btn, .add-btn {
+  background-color: #307fb4;
+  color: white;
+  border-radius: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.register-page .btn-register:hover, .login-page .login-btn:hover, .add-btn:hover {
+  background-color: #205b83;
+  color: white;
+}
+
+.register-form span, .login-form span {
+  margin: 30px 0;
+}
+
+.billing-title{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.modal-form{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch
+}
+
+.modal-form div input{
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  border: .5px solid #dbdbdb75;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.err{
+  padding: 5px 0;
+}
+
